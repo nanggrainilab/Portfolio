@@ -3,7 +3,15 @@ import { Space_Grotesk, Inter } from "next/font/google";
 import Link from "next/link";
 import Header from "@/components/Header";
 import "./globals.css";
-const d=Space_Grotesk({subsets:["latin"],variable:"--f-display"}),b=Inter({subsets:["latin"],variable:"--f-body"});
+const d = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--f-display",
+});
+
+const b = Inter({
+  subsets: ["latin"],
+  variable: "--f-body",
+});
 export const metadata:Metadata={metadataBase:new URL(process.env.NEXT_PUBLIC_SITE_URL||"https://example.com"),
   title:{default:"Novita Anggraini | Data Analytics, BI & Data Engineering",template:"%s | Novita Anggraini"},
   description:"Explore Novita Anggraini's work in data analytics, business intelligence, data management, and machine learning. Discover project case studies, dashboards, and analytical solutions.",
