@@ -1,4 +1,7 @@
 @tailwind base; @tailwind components; @tailwind utilities;
+
+
+:root{--f-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
 html{scroll-behavior:smooth;background:#111412}
 body{font-family:var(--f-body);background:#F4F1E8;color:#111412;overflow-x:hidden}
 :focus-visible{outline:2px solid #D6FF4F;outline-offset:3px}
